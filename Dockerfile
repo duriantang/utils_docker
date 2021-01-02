@@ -3,6 +3,7 @@ LABEL maintainer="duriantang@gmail.com"
 RUN \
     apk update \
     && apk add --no-cache \
+        bash \
         bind-tools \
         ca-certificates \
         curl \
